@@ -84,7 +84,7 @@ install_dependencies() {
 }
 
 zshrc_template() {
-    _HOME=$1; 
+    _HOME=/home/vscode/; 
     _THEME=$2; shift; shift
     _PLUGINS=$*;
 
